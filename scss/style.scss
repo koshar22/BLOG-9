@@ -1,0 +1,108 @@
+$lcolor: lighten($color: #000000, $amount: 50%);
+
+body {
+    font-family: Alatsi;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    background-color: #343434;
+    color: $lcolor;
+    width: 1000px;
+    padding: 10px 35px;
+
+    h1 {
+        color: white;
+    }
+
+    p {
+        font-size: small;
+    }
+
+    .line {
+        content: "";
+        border: 1px solid ;
+        width: 140px;
+        margin: 25px 0;
+    }
+
+    .tags {
+        a {
+            font-size: small;
+            display: block;
+            color: $lcolor;
+            padding: 10px 0;
+            text-transform: uppercase;
+            text-decoration: none;
+            // background-color: yellow;
+            // width: 150px;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+
+    .icons {
+        i {
+            margin-right: 10px;
+            font-size: 20px;
+        }
+    }
+}
+
+.right {
+    // .item {
+    //     padding-bottom: 40px;
+    // }
+    margin:  50px 50px;
+    h1 {
+        margin: 0%;
+    }
+    .date {
+        display: flex;
+        color: $lcolor;
+        font-size: x-small;
+        letter-spacing: 3px;
+        // margin: 0px;
+
+        .one {
+            border-right: 1px solid $lcolor;
+            padding-right: 10px;
+        }
+
+        .two {
+            text-transform: uppercase;
+            padding-left: 10px;
+        }
+    }
+
+    .para {
+
+        margin: 0 0 20px;
+
+    }
+
+    a {
+        // margin: 10px 0;
+        border: 1px solid $lcolor;
+        text-decoration: none;
+        // margin-left: 10px;
+        padding: 10px 20px;
+        border-radius: 40px;
+        color: lighten($color: #000000, $amount: 30%);
+
+        i {
+            padding: 0 5px;
+        }
+    }
+
+    .linee {
+        content: "";
+        border: 1px solid #ddd;
+        margin: 40px 0 20px;
+    }
+}

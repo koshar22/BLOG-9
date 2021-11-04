@@ -1,0 +1,84 @@
+body {
+  font-family: Alatsi;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.left {
+  background-color: #343434;
+  color: gray;
+  width: 1000px;
+  padding: 10px 35px;
+}
+.left h1 {
+  color: white;
+}
+.left p {
+  font-size: small;
+}
+.left .line {
+  content: "";
+  border: 1px solid;
+  width: 140px;
+  margin: 25px 0;
+}
+.left .tags a {
+  font-size: small;
+  display: block;
+  color: gray;
+  padding: 10px 0;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.left .tags a:hover {
+  color: #fff;
+}
+.left .icons i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.right {
+  margin: 50px 50px;
+}
+.right h1 {
+  margin: 0%;
+}
+.right .date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: gray;
+  font-size: x-small;
+  letter-spacing: 3px;
+}
+.right .date .one {
+  border-right: 1px solid gray;
+  padding-right: 10px;
+}
+.right .date .two {
+  text-transform: uppercase;
+  padding-left: 10px;
+}
+.right .para {
+  margin: 0 0 20px;
+}
+.right a {
+  border: 1px solid gray;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 40px;
+  color: #4d4d4d;
+}
+.right a i {
+  padding: 0 5px;
+}
+.right .linee {
+  content: "";
+  border: 1px solid #ddd;
+  margin: 40px 0 20px;
+}
